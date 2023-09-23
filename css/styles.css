@@ -1094,7 +1094,7 @@ body{
     text-rendering:optimizeLegibility;
     text-rendering:geometricPrecision;
     font-smooth:always;
-    font-smoothing:antialiased;
+    /* font-smoothing:antialiased; */
     -moz-font-smoothing:antialiased;
     -webkit-font-smoothing:antialiased;
     -webkit-font-smoothing:subpixel-antialiased
@@ -1382,7 +1382,7 @@ nav .logo svg{
     transform:translateX(0)
 }
 nav .logo:after{
-    content:'Back home';
+    content:'Seek More';
     position:absolute;
     font-family:"Averta",sans-serif;
     color:#F3F2F4;
